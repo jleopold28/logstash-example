@@ -1,0 +1,51 @@
+{ "customers": [
+    { 
+      "id": "12345ABC",
+      "name": "Bob",
+      "address": "123 Main Street, New York, NY 55534",
+      "visits": [
+        { "amount": 4.12,
+          "items": [ "vanilla", "cookie_dough"],
+          "date": "051218"},
+        { "amount": 2.14,
+          "items": ["vanilla" ],
+          "date": "060318"},
+        { "amount": 7.23,
+          "items": ["vanilla", "chocolate", "rockyroad"],
+          "date": "071218"}
+      ]
+    },
+    {
+      "id": "84392FDSA",
+      "name": "Alice",
+      "address": "930 West Way, Los Angeles, CA 32341",
+      "visits": [
+        { "amount": 2.21,
+          "items": [ "mint_chocolate_chip", "coffee"],
+          "date": "051618"},
+        { "amount": 2.14,
+          "items": ["butter_pecan" ],
+          "date": "060518"},
+        { "amount": 4.23,
+          "items": ["strawberry", "butter_pecan"],
+          "date": "072318"},
+        { "amount": 9.03,
+          "items": ["vanilla", "butter_pecan", "mango", "rocky_road"],
+          "date": "082318"}
+       ]
+    },
+    {
+      "id": "5684390DFA",
+      "name": "Jen",
+      "address": "43 Mesa Place, Wichita, KS 54329",
+      "visits": [
+        { "amount": 4.12,
+          "items": [ "moose_tracks", "cookies_and_cream" ],
+          "date": "050918"},
+        { "amount": 4.12,
+          "items": ["neopolitan", "moose_tracks"],
+          "date": "061218"}
+        ]
+    }
+  ]
+}
